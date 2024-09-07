@@ -1,0 +1,36 @@
+### CSS (styles)
+css
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #333;
+}
+
+.stopwatch {
+  border: 2px solid #333;
+  padding: 20px;
+  display: inline-block;
+}
+
+#display {
+  font-size: 48px;
+  margin: 20px 0;
+ }
+
+.buttons button {
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+#laps {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#laps li {
+  font-size: 20px;
+  margin: 5px 0;
+}
